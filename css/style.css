@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.Own {
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+}
+
+.Own .Logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Own .Logo .phone{
+    display: flex;
+    flex-direction: column;
+}
+
+.Own .Logo .phone a{
+    text-decoration: none;
+    color: #eb5017;
+    font-size: 20px;
+}
+
+.Own .menu {
+    background-color: #231f20;
+    width: 100%;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.Own .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-right: 1px solid #eb5017;
+}
+
+.Own .menu .int{
+    border-right: none;
+}
+
+.Own .menu a:hover {
+    background-color: #eb5017;
+    transition: 0.3s;
+}
+
+.active {
+    background-color: #eb5017;
+}
+
+.Own .menu a .title {
+    display: flex;
+    height: 43px;
+    margin: 0 34px;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.Own .bread {
+    margin-top: 10px;
+}
+
+.Own .bread a {
+    text-decoration: underline;
+    color: #231f20;
+}
+
+.Own .bread .calc0 {
+    text-decoration: none;
+}
+
+.Own .calc {
+    height: 378px;
+    width: 652px;
+    background-color: #f2f2f2;
+    margin-top: 15px;
+}
+
+.calc .var {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    justify-content: space-evenly;
+}
+
+.calc .date {
+    display: flex;
+}
+
+.calc .slider {
+    display: flex;
+}
+
+.calc .year {
+    display: flex;
+}
+
+.calc .radio {
+    display: flex;
+}
+
+.calc .summplus {
+    display: flex;
+}
+
+.Own .calc h1 {
+    color: #eb5017;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+
+.Own .calc .radio input {
+    margin-left: 20px;
+}
+
+.Own .calc .var input {
+    margin-left: 20px;
+}
+
+.calc .sub  input{
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    border: 1px solid #c6c9c9;
+    border-radius: 6px;
+    background: #80C800;
+    color: #191919;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.calc .sub {
+    display: flex;
+    align-items: center;
+}
+
+.calc .sub p {
+    margin-left: 30px;
+}
+
+.foot {
+    background-color: #231f20;
+    height: 55px;
+    position: absolute;
+    bottom: 0;
+    width: 1000px;
+    display: flex;
+}
+
+.foot a {
+    text-decoration: underline;
+    color: #f2f2f2;
+    padding: 15px;
+}
